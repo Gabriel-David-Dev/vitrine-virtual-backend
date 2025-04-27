@@ -19,7 +19,7 @@
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             $_SESSION['logado'] = true;
-            header('Location: ' . '../Frontend/index.html');
+            header('Location: ' . '../Frontend/index.php');
         }
     }
     else {
